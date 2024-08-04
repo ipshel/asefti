@@ -65,3 +65,90 @@ def vkk(verb):
 
     return asefti
 
+
+#kkv
+
+def kkv(verb):
+
+    if len(verb) != 3:
+        raise ValueError(f"ca wer yelli d wenni, '{verb}'")
+
+    k1, k2, v1 = verb
+    sp = ''
+    
+    anad = [
+        verb, f"{verb}m", f"{verb}t", f"{verb}mt"
+    ]
+
+    if k2 == 'w':
+        k2, sp = 'k', 'ʷ'
+    
+    anad_ussid = [
+        f"{k1}e{k2}{k2}{sp}{v1}", f"{k1}e{k2}{k2}{sp}{v1}m", f"{k1}e{k2}{k2}{sp}{v1}t", f"{k1}e{k2}{k2}{sp}{v1}mt"
+    ]
+    
+    k2 = verb[1]
+    
+    v1 = 'i' if v1 == 'a' else v1
+    
+    usmid = [
+        f"{k1}{k2}{v1}ɣ", f"te{k1}{k2}{v1}d", f"ye{verb}", f"te{verb}",
+        f"ne{verb}", f"te{verb}m", f"te{verb}mt", f"{verb}n", f"{verb}nt"
+    ]
+    
+    usmid_anabaw = [
+         f"wer {k1}{k2}{v1}ɣ", f"wer te{k1}{k2}{v1}d", f"wer ye{k1}{k2}{v1}", f"wer te{k1}{k2}{v1}",
+         f"wer ne{k1}{k2}{v1}", f"wer te{k1}{k2}{v1}m", f"wer te{k1}{k2}{v1}mt", f"wer {k1}{k2}{v1}n", f"wer {k1}{k2}{v1}nt"
+    ]
+    
+    v1 = verb[2]
+    
+    if k2 == 'w':
+        k2, sp = 'k', 'ʷ'
+    sp2 = 'i' if v1 == 'a' else v1
+    
+    arusmid = [
+        f"{k1}e{k2}{k2}{sp}{sp2}ɣ", f"t{k1}e{k2}{k2}{sp}{sp2}d", f"i{k1}e{k2}{k2}{sp}{v1}", f"t{k1}e{k2}{k2}{sp}{v1}",
+        f"n{k1}e{k2}{k2}{sp}{v1}", f"t{k1}e{k2}{k2}{sp}{v1}m", f"t{k1}e{k2}{k2}{sp}{v1}mt", f"{k1}e{k2}{k2}{sp}{v1}n", f"{k1}e{k2}{k2}{sp}{v1}nt"
+    ]
+   
+    
+    v1 = 'i' if v1 == 'a' else v1
+    arusmid_anabaw = [
+        f"wer {k1}e{k2}{k2}{sp}{sp2}ɣ", f"wer t{k1}e{k2}{k2}{sp}{sp2}d", f"wer i{k1}e{k2}{k2}{sp}{v1}", f"wer t{k1}e{k2}{k2}{sp}{v1}",
+        f"wer n{k1}e{k2}{k2}{sp}{v1}", f"wer t{k1}e{k2}{k2}{sp}{v1}m", f"wer t{k1}e{k2}{k2}{sp}{v1}mt", f"wer {k1}e{k2}{k2}{sp}{v1}n", f"wer {k1}e{k2}{k2}{sp}{v1}nt"
+    ]
+    
+    k2, v1 = verb[1], verb[2]
+    urmir = [
+        f"ad {k1}{k2}{sp2}ɣ", f"ad te{k1}{k2}{sp2}d", f"ad ye{k1}{k2}{v1}", f"ad te{k1}{k2}{v1}", f"a ne{k1}{k2}{v1}",
+        f"ad te{k1}{k2}{v1}m", f"ad te{k1}{k2}{v1}mt", f"ad {k1}{k2}{v1}n", f"ad {k1}{k2}{v1}nt"
+    ]
+    
+    if k2 == 'w':
+        k2, sp = 'k', 'ʷ'
+    
+    amaghun = [
+        f"ye{k1}{k2}{v1}n / wer ye{k1}{k2}in", f"i{k1}e{k2}{k2}{sp}{v1}n / wer i{k1}e{k2}{k2}{sp}n"
+    ]
+
+    # smun
+    asefti = {
+            "root": "",
+            "translations": {},
+            "conj": {
+                "anad": anad,
+                "anadussid":anad_ussid,
+                "usmid":usmid,
+                "usmidanabaw":usmid_anabaw,
+                "arusmid":arusmid,
+                "arusmidanabaw": arusmid_anabaw,
+                "urmir":urmir,
+                "amaghun":amaghun
+            }
+        }
+
+    return asefti
+
+
+

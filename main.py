@@ -2,7 +2,7 @@
 
 import json
 
-from x3 import vkk
+from x3 import vkk, kkv
 from x4 import kkvk
 from x5 import kvkvk
 from x6 import kvkkvk
@@ -19,14 +19,13 @@ def match_pattern(word, pattern):
         return False
 
     w_pattern = tuple(c in 'aeiu' for c in word)
-
     p_pattern = tuple(c == 'v' for c in pattern)
 
     return w_pattern == p_pattern
 
 
 
-verbs = ['jawen','susef','buqar','siwel','ɛawed']
+verbs = ['bna', 'zwa', 'ksi','ɛfu']
 
 asefti = {}
 
@@ -36,6 +35,8 @@ for verb in verbs:
         
             if match_pattern(verb, 'vkk'):
                 conj = vkk(verb)
+            elif match_pattern(verb, 'kkv'):
+                conj = kkv(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
@@ -70,4 +71,3 @@ for verb in verbs:
 
 
 save_to_json(asefti, 'asefti.json')
-
