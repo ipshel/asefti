@@ -129,7 +129,7 @@ def kkv(verb):
         k2, sp = 'k', 'ʷ'
     
     amaghun = [
-        f"ye{k1}{k2}{v1}n / wer ye{k1}{k2}in", f"i{k1}e{k2}{k2}{sp}{v1}n / wer i{k1}e{k2}{k2}{sp}n"
+        f"ye{k1}{k2}{v1}n / wer ye{k1}{k2}in", f"i{k1}e{k2}{k2}{sp}{v1}n / wer i{k1}e{k2}{k2}{sp}{v1}n"
     ]
 
     # smun
