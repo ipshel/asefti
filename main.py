@@ -2,9 +2,10 @@
 
 import json
 
-from vkk import vkk
-from kkvk import kkvk
-from kvkkvk import kvkkvk
+from x3 import vkk
+from x4 import kkvk
+from x5 import kvkvk
+from x6 import kvkkvk
 
 def save_to_json(data, filename):
 
@@ -25,7 +26,7 @@ def match_pattern(word, pattern):
 
 
 
-verbs = ['bbeẓ', 'xdem', 'mmet', 'ṭṭed', 'xnes']
+verbs = ['jawen','susef','buqar','siwel','ɛawed']
 
 asefti = {}
 
@@ -37,10 +38,18 @@ for verb in verbs:
                 conj = vkk(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
+        
         elif len(verb) == 4:
         
             if match_pattern(verb, 'kkvk'):
                 conj = kkvk(verb)
+            else:
+                raise ValueError(f"ca wer yelli d wenni i '{verb}'")
+        
+        elif len(verb) == 5:
+        
+            if match_pattern(verb, 'kvkvk'):
+                conj = kvkvk(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
