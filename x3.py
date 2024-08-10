@@ -151,4 +151,86 @@ def kkv(verb):
     return asefti
 
 
+#kvk
+
+def kvk(verb):
+
+    if len(verb) != 3:
+        raise ValueError(f"ca wer yelli d wenni, '{verb}'")
+
+    k1, v1, k2 = verb
+    sp = '' if v1 == 'e' else v1
+    anad = [
+        verb, f"{k1}{sp}{k2}em", f"{k1}{sp}{k2}et", f"{k1}{sp}{k2}emt"
+    ]
+    
+    anad_ussid = [ # dag-s aṭṭas n uxarwed d ubeddel
+    ]
+
+    if v1 == 'i':
+        sp, sp2, sp3 = v1, 'e', ''
+    else:
+        sp, sp2, sp3 = '', 'i', 'a'
+    usmid = [
+        f"{k1}{sp}{k2}{sp2}ɣ", f"te{k1}{sp}{k2}{sp2}d", f"ye{k1}{sp}{k2}{sp3}", f"te{k1}{sp}{k2}{sp3}", 
+        f"ne{k1}{sp}{k2}{sp3}", f"te{verb}m", f"te{verb}mt", f"{verb}n", f"{verb}nt"
+    ]
+    
+    usmid_anabaw = [
+         f"wer {form[:-1] + 'i'}" if form[-1]=='a' else f"wer {form}" for form in usmid 
+           ]
+    
+    
+    k1, v1, k2 = verb.replace('ɣ', 'q', 1)
+
+    arusmid = [
+        f"tt{verb}iɣ", f"tett{verb}id", f"itt{verb}a", f"tett{verb}",
+        f"nett{verb}a", f"tett{verb}am", f"ttt{verb}amt", f"tt{verb}an", f"tt{verb}ant"
+    ] if v1 != 'e' else [
+    
+        f"{k1}{k1}a{k2}eɣ", f"te{k1}{k1}a{k2}ed", f"ye{k1}{k1}a{k2}", f"te{k1}{k1}a{k2}",
+        f"ne{k1}{k1}a{k2}", f"te{k1}{k1}a{k2}em", f"te{k1}{k1}a{k2}emt", f"{k1}{k1}a{k2}en", f"{k1}{k1}a{k2}ent"
+    ]
+    
+    ### ixess-as lxedmet ɛad da, ixess-as wefran
+       
+         
+    k1, v1, k2 = verb
+    arusmid_anabaw = [
+        f"wer {form}" for form in arusmid
+    ] 
+    
+    urmir = [
+        f"ad {verb}eɣ", f"ad t{verb}ed", f"ad i{verb}", f"ad t{verb}", f"a n{verb}",
+        f"ad t{verb}em", f"ad t{verb}mt", f"ad {verb}en", f"ad {verb}ent"
+    ] if v1 != 'e' else [
+        f"ad {k1}{k2}eɣ", f"ad te{k1}{k2}ed", f"ad i{verb}", f"ad t{verb}", f"a n{verb}",
+        f"ad te{k1}{k2}em", f"ad te{k1}{k2}emt", f"ad {k1}{k2}en", f"ad {k1}{k2}ent"
+    ]
+    
+    
+    
+    amaghun = [
+        f"i{verb}en / wer ye{verb}en", f"itt{verb}en / wer yett{verb}en"
+    ] if v1 != 'e' else [
+        f"i{k1}{k2}in / wer ye{k1}{k2}in", f"i{k1}{k1}a{k2}en / wer ye{k1}{k1}a{k2}en"
+    ]
+
+    # smun
+    asefti = {
+            "root": "",
+            "translations": {},
+            "conj": {
+                "anad": anad,
+                "anadussid":anad_ussid,
+                "usmid":usmid,
+                "usmidanabaw":usmid_anabaw,
+                "arusmid":arusmid,
+                "arusmidanabaw": arusmid_anabaw,
+                "urmir":urmir,
+                "amaghun":amaghun
+            }
+        }
+
+    return asefti
 

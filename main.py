@@ -2,7 +2,7 @@
 
 import json
 
-from x3 import vkk, kkv
+from x3 import vkk, kkv, kvk
 from x4 import kkvk
 from x5 import kvkvk
 from x6 import kvkkvk
@@ -25,7 +25,7 @@ def match_pattern(word, pattern):
 
 
 
-verbs = ['bna', 'zwa', 'ksi','ɛfu']
+verbs = ['ban','del','cuq','ɣez','sel','qim']
 
 asefti = {}
 
@@ -37,6 +37,8 @@ for verb in verbs:
                 conj = vkk(verb)
             elif match_pattern(verb, 'kkv'):
                 conj = kkv(verb)
+            elif match_pattern(verb, 'kvk'):
+                conj = kvk(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
