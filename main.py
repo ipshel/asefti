@@ -1,5 +1,6 @@
 #!/bin/python3
 
+import sys
 import json
 
 from x3 import vkk, kkv, kvk
@@ -27,11 +28,13 @@ def match_pattern(word, pattern):
 
 verbs = ['ban','del','cuq','ɣez','sel','qim']
 
-asefti = {}
-
-for verb in verbs:
+def sefta(verb):
     try:
-        if len(verb) == 3:
+        if len(verb) == 2:
+            
+            raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
+        
+        elif len(verb) == 3:
         
             if match_pattern(verb, 'vkk'):
                 conj = vkk(verb)
@@ -63,8 +66,21 @@ for verb in verbs:
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
+        elif len(verb) == 7:
+            
+            raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
+        
+        elif len(verb) == 8:
+        
+            raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
+        
+        elif len(verb) == 9:
+        
+            raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
+        
         else:
-            raise ValueError(f"'{verb}' wer ɣers bu wemkan")
+                
+                raise ValueError(f"'{verb}' wer ɣers bu wemkan")
 
                 
         asefti[verb] = conj
@@ -72,4 +88,20 @@ for verb in verbs:
         print(e)
 
 
-save_to_json(asefti, 'asefti.json')
+
+if __name__ == "__main__":
+    asefti = {}
+    
+    if len(sys.argv) > 1:
+        verb = sys.argv[1]
+        conj = sefta(verb)
+        if conj:
+            asefti[verb] = conj
+        print(json.dumps(asefti, ensure_ascii=False, indent=4))
+    
+    else:
+        for verb in verbs:
+            conj = sefta(verb)
+            if conj:
+                asefti[verb] = conj
+            save_to_json(asefti, 'asefti.json')
