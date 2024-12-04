@@ -234,3 +234,90 @@ def kvk(verb):
 
     return asefti
 
+#vkv
+
+def vkv(verb):
+
+
+    if len(verb) != 3:
+        raise ValueError(f"ca wer yelli d wenni, '{verb}'")
+
+    v1, k1, v2 = verb
+  
+    
+    anad = [
+        verb, f"{verb}m", f"{verb}t", f"{verb}mt"
+    ]
+
+
+    anad_ussid = [
+        f"tt{verb}", f"tt{verb}m", f"tt{verb}t", f"tt{verb}mt"
+    ]
+    
+    sp = 'a' if v2 == 'i' else v2
+    sp1 = 'u' if v1 == 'a' else v1
+    sp1 = k1 if v1 == 'i' else sp1
+    sp2 = 'i' if v2 =='a' else v2
+    e = 'e' if v1 == 'i' else ''
+   
+    usmid = [
+        f"{sp1}{k1}{sp2}ɣ", f"t{e}{sp1}{k1}{sp2}d", f"y{e}{sp1}{k1}{sp}", f"t{e}{sp1}{k1}{sp}",
+        f"n{e}{sp1}{k1}{sp}", f"t{e}{sp1}{k1}{sp}m", f"t{e}{sp1}{k1}{sp}mt", f"{sp1}{k1}{sp}n", f"{sp1}{k1}{sp}nt"
+    ]
+    
+    sp = 'i' if sp == 'a' else sp
+    
+    usmid_anabaw = [
+        f"wer {sp1}{k1}{sp2}ɣ", f"wer t{e}{sp1}{k1}{sp2}d", f"wer y{e}{sp1}{k1}{sp}", f"wer t{e}{sp1}{k1}{sp}",
+        f"wer n{e}{sp1}{k1}{sp}", f"wer t{e}{sp1}{k1}{sp}m", f"wer t{e}{sp1}{k1}{sp}mt", f"wer {sp1}{k1}{sp}n", f"wer {sp1}{k1}{sp}nt"
+    ]
+    
+    
+    arusmid = [
+        f"tt{verb}ɣ", f"tett{verb}d", f"it{verb}", f"tett{verb}",
+        f"nett{verb}", f"tett{verb}m", f"tett{verb}mt", f"tt{verb}n", f"tt{verb}nt"
+    ]
+   
+    
+
+    arusmid_anabaw = [
+     
+        f"wer {form}" for form in arusmid
+           
+    ]
+    
+
+    urmir = [
+        f"ad {verb}ɣ", f"ad t{verb}d", f"ad y{verb}", f"ad t{verb}", f"a n{verb}",
+        f"ad t{verb}m", f"ad t{verb}mt", f"ad {verb}n", f"ad {verb}nt"
+    ]
+    
+
+
+    amaghun = [
+        f"ye{k1}{k1}an / wer ye{k1}{k1}in", f"itti{k1}in / wer yetti{k1}in"
+        ] if v1 == v2 else [
+        f"yu{k1}an / wer yu{k1}in" , "" # izessas tarezzut iwmaɣun arusmid
+    ]
+
+    # smun
+    asefti = {
+            "root": "",
+            "translations": {},
+            "conj": {
+                "anad": anad,
+                "anadussid":anad_ussid,
+                "usmid":usmid,
+                "usmidanabaw":usmid_anabaw,
+                "arusmid":arusmid,
+                "arusmidanabaw": arusmid_anabaw,
+                "urmir":urmir,
+                "amaghun":amaghun
+            }
+        }
+
+    return asefti
+
+
+    
+
