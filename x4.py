@@ -78,3 +78,74 @@ def kkvk(verb):
 
     return asefti
 
+
+#kvkk
+
+def kvkk(verb):
+   
+   
+    if len(verb) != 4:
+        raise ValueError(f"'{verb}'. ca wer yelli d wenni")
+
+    # asufeɣ n isekkilen
+    k1, v1, k2, k3 = verb
+
+    # asefti
+    
+    anad = [
+        verb, f"{verb}em", f"{verb}et", f"{verb}emt"
+    ]
+
+    anad_ussid = [
+         
+         f"tt{verb}a", f"tt{verb}am", f"tt{verb}at", f"tt{verb}amt"
+    ]
+    
+    
+    usmid = [
+        f"{verb}eɣ", f"t{verb}ed", f"i{verb}", f"t{verb}",
+        f"n{verb}", f"t{verb}em", f"t{verb}emt", f"{verb}en", f"{verb}ent"
+    ]
+    
+    
+    usmid_anabaw = [
+        f"wer {form}" for form in usmid
+    ]
+    
+
+    arusmid = [
+        f"tt{verb}iɣ", f"tett{verb}id", f"itt{verb}a", f"tett{verb}a",
+        f"net{verb}a", f"tett{verb}am", f"tett{verb}mt", f"tt{verb}an", f"tett{verb}ant"
+    ]
+    
+
+    arusmid_anabaw = [
+        f"wer {form}" for form in arusmid[:2] ] +  [f"wer itt{verb}i", f"wer tett{verb}i", f"wer net{verb}i"] +  [f"wer {form}" for form in arusmid[5:]
+        ]
+    
+    urmir = [
+        f"ad {form}" for form in usmid
+    ]    
+    
+    amaghun = [
+        f"i{verb}en / wer i{verb}en", f"itt{verb}an / wer itt{verb}an"
+    ]
+
+    # smun
+    asefti = {
+            "root": "",
+            "translations": {},
+            "conj": {
+                "anad": anad,
+                "anadussid":anad_ussid,
+                "usmid":usmid,
+                "usmidanabaw":usmid_anabaw,
+                "arusmid":arusmid,
+                "arusmidanabaw": arusmid_anabaw,
+                "urmir":urmir,
+                "amaghun":amaghun
+            }
+        }
+
+    return asefti
+
