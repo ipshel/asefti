@@ -4,7 +4,7 @@ import sys
 import json
 
 from x3 import vkk, kkv, kvk, vkv
-from x4 import kkvk, kvkk
+from x4 import kkvk, kvkk, kvkv
 from x5 import kvkvk
 from x6 import kvkkvk
 
@@ -28,13 +28,13 @@ def match_pattern(word, pattern):
 
 
 
-verbs = ['bedd','cekk','ɛiff','rucc','zenz','jenn','zall','ḥinn','xemm']
+verbs = ['dawa','ɛada','fafa','ɣufa','laɣa','siɣi','mizi']
 
 def sefta(verb):
     try:
         if len(verb) == 2:
             
-            raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
+            raise ValueError(f"{verb} : wa ad iraḥ s ufus.")
         
         elif len(verb) == 3:
         
@@ -55,6 +55,8 @@ def sefta(verb):
                 conj = kkvk(verb)
             elif match_pattern(verb, 'kvkk'):
                 conj = kvkk(verb)
+            elif match_pattern(verb, 'kvkv'):
+                conj = kvkv(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
