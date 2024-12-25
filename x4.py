@@ -220,3 +220,79 @@ def kvkv(verb):
 
     return asefti
 
+#vkvk
+
+def vkvk(verb):
+
+   
+    if len(verb) != 4:
+        raise ValueError(f"'{verb}'. ca wer yelli d wenni")
+
+    # asufeɣ n isekkilen
+    v1, k1, v2, k2 = verb
+    # asefti
+    
+    sp = '' if v2 == 'e' else v2
+    anad = [
+        verb, f"{v1}{k1}{sp}{k2}em", f"{v1}{k1}{sp}{k2}et", f"{v1}{k1}{sp}{k2}emt"
+    ]
+
+    anad_ussid = [
+        f"tt{verb}", f"tt{v1}{k1}{sp}{k2}em", f"tt{v1}{k1}{sp}{k2}et", f"tt{v1}{k1}{sp}{k2}emt"
+    ]
+    
+    psp = 'u' if v1 == 'a' else v1
+    usmid = [
+        f"{psp}{k1}{sp}{k2}eɣ", f"t{psp}{k1}{sp}{k2}ed", f"y{psp}{k1}{v2}{k2}", f"t{psp}{k1}{v2}{k2}",
+        f"n{psp}{k1}{v2}{k2}", f"t{psp}{k1}{sp}{k2}em", f"t{psp}{k1}{sp}{k2}emt", f"{psp}{k1}{sp}{k2}en", f"{psp}{k1}{sp}{k2}ent"
+    ] # danita ɣar-neɣ scwa di 3rd.sg d 1st.pl mala texsed ad teksed beddel v2 s sp waha
+    
+    sp = 'i' if v2 == 'e' else v2
+    usmid_anabaw = [
+        f"wer {psp}{k1}{sp}{k2}eɣ", f"wer t{psp}{k1}{sp}{k2}ed", f"wer y{psp}{k1}{sp}{k2}", f"wer t{psp}{k1}{sp}{k2}",
+        f"wer n{psp}{k1}{sp}{k2}", f"wer t{psp}{k1}{sp}{k2}em", f"wer t{psp}{k1}{sp}{k2}emt", f"wer {psp}{k1}{sp}{k2}en", f"wer {psp}{k1}{sp}{k2}ent"
+    ]
+    
+    sp = '' if v2 == 'e' else v2
+    arusmid = [
+        f"tt{v1}{k1}{sp}{k2}eɣ", f"tett{v1}{k1}{sp}{k2}ed", f"itt{v1}{k1}{v2}{k2}", f"tett{v1}{k1}{v2}{k2}",
+        f"nett{v1}{k1}{v2}{k2}", f"tett{v1}{k1}{sp}{k2}em", f"tett{v1}{k1}{sp}{k2}emt", f"tt{v1}{k1}{sp}{k2}en", f"tt{v1}{k1}{sp}{k2}ent"
+    ]
+    
+    psp = 'i' if v1 == 'a' else v1
+    arusmid_anabaw = [
+        f"wer tt{psp}{k1}{sp}{k2}eɣ", f"wer tett{psp}{k1}{sp}{k2}ed", f"wer itt{psp}{k1}{v2}{k2}", f"wer tett{psp}{k1}{v2}{k2}",
+        f"wer nett{psp}{k1}{v2}{k2}", f"wer tett{psp}{k1}{sp}{k2}em", f"wer tett{psp}{k1}{sp}{k2}emt", f"wer tt{psp}{k1}{sp}{k2}en", f"wer tt{psp}{k1}{sp}{k2}ent"
+]
+    
+    sp = '' if v2 == 'e' else v2
+    urmir = [
+        f"ad {v1}{k1}{sp}{k2}eɣ", f"ad t{v1}{k1}{sp}{k2}ed", f"ad y{v1}{k1}{v2}{k2}", f"ad t{v1}{k1}{v2}{k2}", f"a n{v1}{k1}{v2}{k2}",
+        f"ad t{v1}{k1}{sp}{k2}em", f"ad t{v1}{k1}{sp}{k2}emt", f"ad {v1}{k1}{sp}{k2}en", f"ad {v1}{k1}{sp}{k2}ent"
+    ]
+    
+
+    ssp = 'u' if v1 == 'a' else v1
+    psp = 'i' if v1 == 'a' else v2
+    amaghun = [
+        f"y{ssp}{k1}{sp}{k2}en / wer y{ssp}{k1}{psp}{k2}en", f"itt{v1}{k1}{sp}{k2}en / wer itt{psp}{k1}{sp}{k2}en"
+    ]
+
+    # smun
+    asefti = {
+            "root": "",
+            "translations": {},
+            "conj": {
+                "anad": anad,
+                "anadussid":anad_ussid,
+                "usmid":usmid,
+                "usmidanabaw":usmid_anabaw,
+                "arusmid":arusmid,
+                "arusmidanabaw": arusmid_anabaw,
+                "urmir":urmir,
+                "amaghun":amaghun
+            }
+        }
+
+    return asefti
+

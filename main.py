@@ -4,7 +4,7 @@ import sys
 import json
 
 from x3 import vkk, kkv, kvk, vkv
-from x4 import kkvk, kvkk, kvkv
+from x4 import kkvk, kvkk, kvkv, vkvk
 from x5 import kvkvk
 from x6 import kvkkvk
 
@@ -19,7 +19,7 @@ def match_pattern(word, pattern):
     if len(word) != len(pattern):
         return False
     if 'o' in word:
-        return False
+        return Falseaɣer
 
     w_pattern = tuple(c in 'aeiu' for c in word)
     p_pattern = tuple(c == 'v' for c in pattern)
@@ -28,7 +28,7 @@ def match_pattern(word, pattern):
 
 
 
-verbs = ['dawa','ɛada','fafa','ɣufa','laɣa','siɣi','mizi']
+verbs = ['ader','agel','ames','akar','iriw','irar','ugur','ubud']
 
 def sefta(verb):
     try:
@@ -57,6 +57,8 @@ def sefta(verb):
                 conj = kvkk(verb)
             elif match_pattern(verb, 'kvkv'):
                 conj = kvkv(verb)
+            elif match_pattern(verb, 'vkvk'):
+                conj = vkvk(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
