@@ -4,7 +4,7 @@ import sys
 import json
 
 from x3 import vkk, kkv, kvk, vkv
-from x4 import kkvk, kvkk, kvkv, vkvk
+from x4 import kkvk, kvkk, kvkv, vkvk, vkkv
 from x5 import kvkvk
 from x6 import kvkkvk
 
@@ -28,7 +28,7 @@ def match_pattern(word, pattern):
 
 
 
-verbs = ['ader','agel','ames','akar','iriw','irar','ugur','ubud']
+verbs = ['uɛla', 'urja','egru','erra','ecca']
 
 def sefta(verb):
     try:
@@ -59,6 +59,8 @@ def sefta(verb):
                 conj = kvkv(verb)
             elif match_pattern(verb, 'vkvk'):
                 conj = vkvk(verb)
+            elif match_pattern(verb, 'vkkv'):
+                conj = vkkv(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
@@ -103,10 +105,10 @@ if __name__ == "__main__":
     asefti = {}
     
     if len(sys.argv) > 1:
-        verb = sys.argv[1]
-        conj = sefta(verb)
-        if conj:
-            asefti[verb] = conj
+        for verb in sys.argv[1:]:
+            conj = sefta(verb)
+            if conj:
+                asefti[verb] = conj
         print(json.dumps(asefti, ensure_ascii=False, indent=4))
     
     else:
