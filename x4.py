@@ -188,13 +188,13 @@ def kvkv(verb):
     
 
     arusmid = [
-        f"tt{verb}iɣ", f"tett{verb}id", f"itt{verb}a", f"tett{verb}a",
-        f"net{verb}a", f"tett{verb}am", f"tett{verb}mt", f"tt{verb}an", f"tett{verb}ant"
+        f"tt{k1}{v1}{k2}{sp2}ɣ", f"tett{k1}{v1}{k2}{sp2}d", f"itt{k1}{v1}{k2}{v2}", f"tett{k1}{v1}{k2}{v2}",
+        f"net{k1}{v1}{k2}{v2}", f"tett{k1}{v1}{k2}{v2}m", f"tett{k1}{v1}{k2}{v2}mt", f"tt{k1}{v1}{k2}{v2}n", f"tett{k1}{v1}{k2}{v2}nt"
     ]
     
 
     arusmid_anabaw = [
-        f"wer {form}" for form in arusmid[:2] ] +  [f"wer itt{verb}i", f"wer tett{verb}i", f"wer net{verb}i"] +  [f"wer {form}" for form in arusmid[5:]
+        f"wer {form}" for form in arusmid[:2] ] +  [f"wer itt{k1}{v1}{k2}i", f"wer tett{k1}{v1}{k2}i", f"wer net{k1}{v1}{k2}i"] +  [f"wer {form}" for form in arusmid[5:]
         ]
     
     urmir = [
