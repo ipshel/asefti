@@ -1,617 +1,386 @@
 {
-  "ader": {
+  "uɛla": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "ader",
-        "adrem",
-        "adret",
-        "adremt"
+        "uɛla",
+        "uɛlam",
+        "uɛlat",
+        "uɛlamt"
       ],
       "anadussid": [
-        "ttader",
-        "ttadrem",
-        "ttadret",
-        "ttadremt"
+        "ttuɛla",
+        "ttuɛlam",
+        "ttuɛlat",
+        "uɛlamt"
       ],
       "usmid": [
-        "udreɣ",
-        "tudred",
-        "yuder",
-        "tuder",
-        "nuder",
-        "tudrem",
-        "tudremt",
-        "udren",
-        "udrent"
+        "uɛliɣ",
+        "tuɛlid",
+        "yuɛla",
+        "tuɛla",
+        "nuɛla",
+        "tuɛlam",
+        "tuɛlamt",
+        "uɛlan",
+        "uɛlant"
       ],
       "usmidanabaw": [
-        "wer udireɣ",
-        "wer tudired",
-        "wer yudir",
-        "wer tudir",
-        "wer nudir",
-        "wer tudirem",
-        "wer tudiremt",
-        "wer udiren",
-        "wer udirent"
+        "wer uɛliɣ",
+        "wer tuɛlid",
+        "wer yuɛla",
+        "wer tuɛla",
+        "wer nuɛla",
+        "wer tuɛlam",
+        "wer tuɛlamt",
+        "wer uɛlan",
+        "wer uɛlant"
       ],
       "arusmid": [
-        "ttadreɣ",
-        "tettadred",
-        "ittader",
-        "tettader",
-        "nettader",
-        "tettadrem",
-        "tettadremt",
-        "ttadren",
-        "ttadrent"
+        "ttuɛliɣ",
+        "ttuɛlid",
+        "ittuɛla",
+        "tettuɛla",
+        "nettuɛla",
+        "tettuɛlam",
+        "tettuɛlamt",
+        "ttuɛlan",
+        "ttuɛlant"
       ],
       "arusmidanabaw": [
-        "wer ttidreɣ",
-        "wer tettidred",
-        "wer ittider",
-        "wer tettider",
-        "wer nettider",
-        "wer tettidrem",
-        "wer tettidremt",
-        "wer ttidren",
-        "wer ttidrent"
+        "wer ttuɛliɣ",
+        "wer ttuɛlid",
+        "wer ittuɛla",
+        "wer tettuɛla",
+        "wer nettuɛla",
+        "wer tettuɛlam",
+        "wer tettuɛlamt",
+        "wer ttuɛlan",
+        "wer ttuɛlant"
       ],
       "urmir": [
-        "ad adreɣ",
-        "ad tadred",
-        "ad yader",
-        "ad tader",
-        "a nader",
-        "ad tadrem",
-        "ad tadremt",
-        "ad adren",
-        "ad adrent"
+        "ad uɛliɣ",
+        "ad tuɛlid",
+        "ad yuɛla",
+        "ad tuɛla",
+        "ad nuɛla",
+        "ad tuɛlam",
+        "ad tuɛlamt",
+        "ad uɛlan",
+        "ad uɛlant"
       ],
       "amaghun": [
-        "yudren / wer yudiren",
-        "ittadren / wer ittidren"
+        "yuɛlan / wer yuɛlin",
+        "ittuɛlan / wer ittuɛlin"
       ]
     }
   },
-  "agel": {
+  "urja": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "agel",
-        "aglem",
-        "aglet",
-        "aglemt"
+        "urja",
+        "urjam",
+        "urjat",
+        "urjamt"
       ],
       "anadussid": [
-        "ttagel",
-        "ttaglem",
-        "ttaglet",
-        "ttaglemt"
+        "tturja",
+        "tturjam",
+        "tturjat",
+        "urjamt"
       ],
       "usmid": [
-        "ugleɣ",
-        "tugled",
-        "yugel",
-        "tugel",
-        "nugel",
-        "tuglem",
-        "tuglemt",
-        "uglen",
-        "uglent"
+        "urjiɣ",
+        "turjid",
+        "yurja",
+        "turja",
+        "nurja",
+        "turjam",
+        "turjamt",
+        "urjan",
+        "urjant"
       ],
       "usmidanabaw": [
-        "wer ugileɣ",
-        "wer tugiled",
-        "wer yugil",
-        "wer tugil",
-        "wer nugil",
-        "wer tugilem",
-        "wer tugilemt",
-        "wer ugilen",
-        "wer ugilent"
+        "wer urjiɣ",
+        "wer turjid",
+        "wer yurja",
+        "wer turja",
+        "wer nurja",
+        "wer turjam",
+        "wer turjamt",
+        "wer urjan",
+        "wer urjant"
       ],
       "arusmid": [
-        "ttagleɣ",
-        "tettagled",
-        "ittagel",
-        "tettagel",
-        "nettagel",
-        "tettaglem",
-        "tettaglemt",
-        "ttaglen",
-        "ttaglent"
+        "tturjiɣ",
+        "tturjid",
+        "itturja",
+        "tetturja",
+        "netturja",
+        "tetturjam",
+        "tetturjamt",
+        "tturjan",
+        "tturjant"
       ],
       "arusmidanabaw": [
-        "wer ttigleɣ",
-        "wer tettigled",
-        "wer ittigel",
-        "wer tettigel",
-        "wer nettigel",
-        "wer tettiglem",
-        "wer tettiglemt",
-        "wer ttiglen",
-        "wer ttiglent"
+        "wer tturjiɣ",
+        "wer tturjid",
+        "wer itturja",
+        "wer tetturja",
+        "wer netturja",
+        "wer tetturjam",
+        "wer tetturjamt",
+        "wer tturjan",
+        "wer tturjant"
       ],
       "urmir": [
-        "ad agleɣ",
-        "ad tagled",
-        "ad yagel",
-        "ad tagel",
-        "a nagel",
-        "ad taglem",
-        "ad taglemt",
-        "ad aglen",
-        "ad aglent"
+        "ad urjiɣ",
+        "ad turjid",
+        "ad yurja",
+        "ad turja",
+        "ad nurja",
+        "ad turjam",
+        "ad turjamt",
+        "ad urjan",
+        "ad urjant"
       ],
       "amaghun": [
-        "yuglen / wer yugilen",
-        "ittaglen / wer ittiglen"
+        "yurjan / wer yurjin",
+        "itturjan / wer itturjin"
       ]
     }
   },
-  "ames": {
+  "egru": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "ames",
-        "amsem",
-        "amset",
-        "amsemt"
+        "egru",
+        "egrum",
+        "egrut",
+        "egrumt"
       ],
       "anadussid": [
-        "ttames",
-        "ttamsem",
-        "ttamset",
-        "ttamsemt"
+        "ttegru",
+        "ttegrum",
+        "ttegrut",
+        "egrumt"
       ],
       "usmid": [
-        "umseɣ",
-        "tumsed",
-        "yumes",
-        "tumes",
-        "numes",
-        "tumsem",
-        "tumsemt",
-        "umsen",
-        "umsent"
+        "egruɣ",
+        "tegrud",
+        "yegru",
+        "tegru",
+        "negru",
+        "tegrum",
+        "tegrumt",
+        "egrun",
+        "egrunt"
       ],
       "usmidanabaw": [
-        "wer umiseɣ",
-        "wer tumised",
-        "wer yumis",
-        "wer tumis",
-        "wer numis",
-        "wer tumisem",
-        "wer tumisemt",
-        "wer umisen",
-        "wer umisent"
+        "wer egruɣ",
+        "wer tegrud",
+        "wer yegru",
+        "wer tegru",
+        "wer negru",
+        "wer tegrum",
+        "wer tegrumt",
+        "wer egrun",
+        "wer egrunt"
       ],
       "arusmid": [
-        "ttamseɣ",
-        "tettamsed",
-        "ittames",
-        "tettames",
-        "nettames",
-        "tettamsem",
-        "tettamsemt",
-        "ttamsen",
-        "ttamsent"
+        "ttegruɣ",
+        "ttegrud",
+        "ittegru",
+        "tettegru",
+        "nettegru",
+        "tettegrum",
+        "tettegrumt",
+        "ttegrun",
+        "ttegrunt"
       ],
       "arusmidanabaw": [
-        "wer ttimseɣ",
-        "wer tettimsed",
-        "wer ittimes",
-        "wer tettimes",
-        "wer nettimes",
-        "wer tettimsem",
-        "wer tettimsemt",
-        "wer ttimsen",
-        "wer ttimsent"
+        "wer ttegruɣ",
+        "wer ttegrud",
+        "wer ittegru",
+        "wer tettegru",
+        "wer nettegru",
+        "wer tettegrum",
+        "wer tettegrumt",
+        "wer ttegrun",
+        "wer ttegrunt"
       ],
       "urmir": [
-        "ad amseɣ",
-        "ad tamsed",
-        "ad yames",
-        "ad tames",
-        "a names",
-        "ad tamsem",
-        "ad tamsemt",
-        "ad amsen",
-        "ad amsent"
+        "ad egruɣ",
+        "ad tegrud",
+        "ad yegru",
+        "ad tegru",
+        "ad negru",
+        "ad tegrum",
+        "ad tegrumt",
+        "ad egrun",
+        "ad egrunt"
       ],
       "amaghun": [
-        "yumsen / wer yumisen",
-        "ittamsen / wer ittimsen"
+        "yegrun / wer yegrun",
+        "ittegrun / wer ittegrun"
       ]
     }
   },
-  "akar": {
+  "erra": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "akar",
-        "akarem",
-        "akaret",
-        "akaremt"
+        "erra",
+        "erram",
+        "errat",
+        "erramt"
       ],
       "anadussid": [
-        "ttakar",
-        "ttakarem",
-        "ttakaret",
-        "ttakaremt"
+        "tterra",
+        "tterram",
+        "tterrat",
+        "erramt"
       ],
       "usmid": [
-        "ukareɣ",
-        "tukared",
-        "yukar",
-        "tukar",
-        "nukar",
-        "tukarem",
-        "tukaremt",
-        "ukaren",
-        "ukarent"
+        "erriɣ",
+        "terrid",
+        "yerra",
+        "terra",
+        "nerra",
+        "terram",
+        "terramt",
+        "erran",
+        "errant"
       ],
       "usmidanabaw": [
-        "wer ukareɣ",
-        "wer tukared",
-        "wer yukar",
-        "wer tukar",
-        "wer nukar",
-        "wer tukarem",
-        "wer tukaremt",
-        "wer ukaren",
-        "wer ukarent"
+        "wer erriɣ",
+        "wer terrid",
+        "wer yerra",
+        "wer terra",
+        "wer nerra",
+        "wer terram",
+        "wer terramt",
+        "wer erran",
+        "wer errant"
       ],
       "arusmid": [
-        "ttakareɣ",
-        "tettakared",
-        "ittakar",
-        "tettakar",
-        "nettakar",
-        "tettakarem",
-        "tettakaremt",
-        "ttakaren",
-        "ttakarent"
+        "tterriɣ",
+        "tterrid",
+        "itterra",
+        "tetterra",
+        "netterra",
+        "tetterram",
+        "tetterramt",
+        "tterran",
+        "tterrant"
       ],
       "arusmidanabaw": [
-        "wer ttikareɣ",
-        "wer tettikared",
-        "wer ittikar",
-        "wer tettikar",
-        "wer nettikar",
-        "wer tettikarem",
-        "wer tettikaremt",
-        "wer ttikaren",
-        "wer ttikarent"
+        "wer tterriɣ",
+        "wer tterrid",
+        "wer itterra",
+        "wer tetterra",
+        "wer netterra",
+        "wer tetterram",
+        "wer tetterramt",
+        "wer tterran",
+        "wer tterrant"
       ],
       "urmir": [
-        "ad akareɣ",
-        "ad takared",
-        "ad yakar",
-        "ad takar",
-        "a nakar",
-        "ad takarem",
-        "ad takaremt",
-        "ad akaren",
-        "ad akarent"
+        "ad erriɣ",
+        "ad terrid",
+        "ad yerra",
+        "ad terra",
+        "ad nerra",
+        "ad terram",
+        "ad terramt",
+        "ad erran",
+        "ad errant"
       ],
       "amaghun": [
-        "yukaren / wer yukiren",
-        "ittakaren / wer ittikaren"
+        "yerran / wer yerrin",
+        "itterran / wer itterrin"
       ]
     }
   },
-  "iriw": {
+  "ecca": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "iriw",
-        "iriwem",
-        "iriwet",
-        "iriwemt"
+        "ecca",
+        "eccam",
+        "eccat",
+        "eccamt"
       ],
       "anadussid": [
-        "ttiriw",
-        "ttiriwem",
-        "ttiriwet",
-        "ttiriwemt"
+        "ttecca",
+        "tteccam",
+        "tteccat",
+        "eccamt"
       ],
       "usmid": [
-        "iriweɣ",
-        "tiriwed",
-        "yiriw",
-        "tiriw",
-        "niriw",
-        "tiriwem",
-        "tiriwemt",
-        "iriwen",
-        "iriwent"
+        "ecciɣ",
+        "teccid",
+        "yecca",
+        "tecca",
+        "necca",
+        "teccam",
+        "teccamt",
+        "eccan",
+        "eccant"
       ],
       "usmidanabaw": [
-        "wer iriweɣ",
-        "wer tiriwed",
-        "wer yiriw",
-        "wer tiriw",
-        "wer niriw",
-        "wer tiriwem",
-        "wer tiriwemt",
-        "wer iriwen",
-        "wer iriwent"
+        "wer ecciɣ",
+        "wer teccid",
+        "wer yecca",
+        "wer tecca",
+        "wer necca",
+        "wer teccam",
+        "wer teccamt",
+        "wer eccan",
+        "wer eccant"
       ],
       "arusmid": [
-        "ttiriweɣ",
-        "tettiriwed",
-        "ittiriw",
-        "tettiriw",
-        "nettiriw",
-        "tettiriwem",
-        "tettiriwemt",
-        "ttiriwen",
-        "ttiriwent"
+        "ttecciɣ",
+        "tteccid",
+        "ittecca",
+        "tettecca",
+        "nettecca",
+        "tetteccam",
+        "tetteccamt",
+        "tteccan",
+        "tteccant"
       ],
       "arusmidanabaw": [
-        "wer ttiriweɣ",
-        "wer tettiriwed",
-        "wer ittiriw",
-        "wer tettiriw",
-        "wer nettiriw",
-        "wer tettiriwem",
-        "wer tettiriwemt",
-        "wer ttiriwen",
-        "wer ttiriwent"
+        "wer ttecciɣ",
+        "wer tteccid",
+        "wer ittecca",
+        "wer tettecca",
+        "wer nettecca",
+        "wer tetteccam",
+        "wer tetteccamt",
+        "wer tteccan",
+        "wer tteccant"
       ],
       "urmir": [
-        "ad iriweɣ",
-        "ad tiriwed",
-        "ad yiriw",
-        "ad tiriw",
-        "a niriw",
-        "ad tiriwem",
-        "ad tiriwemt",
-        "ad iriwen",
-        "ad iriwent"
+        "ad ecciɣ",
+        "ad teccid",
+        "ad yecca",
+        "ad tecca",
+        "ad necca",
+        "ad teccam",
+        "ad teccamt",
+        "ad eccan",
+        "ad eccant"
       ],
       "amaghun": [
-        "yiriwen / wer yiriwen",
-        "ittiriwen / wer ittiriwen"
-      ]
-    }
-  },
-  "irar": {
-    "root": "",
-    "translations": {},
-    "conj": {
-      "anad": [
-        "irar",
-        "irarem",
-        "iraret",
-        "iraremt"
-      ],
-      "anadussid": [
-        "ttirar",
-        "ttirarem",
-        "ttiraret",
-        "ttiraremt"
-      ],
-      "usmid": [
-        "irareɣ",
-        "tirared",
-        "yirar",
-        "tirar",
-        "nirar",
-        "tirarem",
-        "tiraremt",
-        "iraren",
-        "irarent"
-      ],
-      "usmidanabaw": [
-        "wer irareɣ",
-        "wer tirared",
-        "wer yirar",
-        "wer tirar",
-        "wer nirar",
-        "wer tirarem",
-        "wer tiraremt",
-        "wer iraren",
-        "wer irarent"
-      ],
-      "arusmid": [
-        "ttirareɣ",
-        "tettirared",
-        "ittirar",
-        "tettirar",
-        "nettirar",
-        "tettirarem",
-        "tettiraremt",
-        "ttiraren",
-        "ttirarent"
-      ],
-      "arusmidanabaw": [
-        "wer ttirareɣ",
-        "wer tettirared",
-        "wer ittirar",
-        "wer tettirar",
-        "wer nettirar",
-        "wer tettirarem",
-        "wer tettiraremt",
-        "wer ttiraren",
-        "wer ttirarent"
-      ],
-      "urmir": [
-        "ad irareɣ",
-        "ad tirared",
-        "ad yirar",
-        "ad tirar",
-        "a nirar",
-        "ad tirarem",
-        "ad tiraremt",
-        "ad iraren",
-        "ad irarent"
-      ],
-      "amaghun": [
-        "yiraren / wer yiraren",
-        "ittiraren / wer ittararen"
-      ]
-    }
-  },
-  "ugur": {
-    "root": "",
-    "translations": {},
-    "conj": {
-      "anad": [
-        "ugur",
-        "ugurem",
-        "uguret",
-        "uguremt"
-      ],
-      "anadussid": [
-        "ttugur",
-        "ttugurem",
-        "ttuguret",
-        "ttuguremt"
-      ],
-      "usmid": [
-        "ugureɣ",
-        "tugured",
-        "yugur",
-        "tugur",
-        "nugur",
-        "tugurem",
-        "tuguremt",
-        "uguren",
-        "ugurent"
-      ],
-      "usmidanabaw": [
-        "wer ugureɣ",
-        "wer tugured",
-        "wer yugur",
-        "wer tugur",
-        "wer nugur",
-        "wer tugurem",
-        "wer tuguremt",
-        "wer uguren",
-        "wer ugurent"
-      ],
-      "arusmid": [
-        "ttugureɣ",
-        "tettugured",
-        "ittugur",
-        "tettugur",
-        "nettugur",
-        "tettugurem",
-        "tettuguremt",
-        "ttuguren",
-        "ttugurent"
-      ],
-      "arusmidanabaw": [
-        "wer ttugureɣ",
-        "wer tettugured",
-        "wer ittugur",
-        "wer tettugur",
-        "wer nettugur",
-        "wer tettugurem",
-        "wer tettuguremt",
-        "wer ttuguren",
-        "wer ttugurent"
-      ],
-      "urmir": [
-        "ad ugureɣ",
-        "ad tugured",
-        "ad yugur",
-        "ad tugur",
-        "a nugur",
-        "ad tugurem",
-        "ad tuguremt",
-        "ad uguren",
-        "ad ugurent"
-      ],
-      "amaghun": [
-        "yuguren / wer yuguren",
-        "ittuguren / wer ittuguren"
-      ]
-    }
-  },
-  "ubud": {
-    "root": "",
-    "translations": {},
-    "conj": {
-      "anad": [
-        "ubud",
-        "ubudem",
-        "ubudet",
-        "ubudemt"
-      ],
-      "anadussid": [
-        "ttubud",
-        "ttubudem",
-        "ttubudet",
-        "ttubudemt"
-      ],
-      "usmid": [
-        "ubudeɣ",
-        "tubuded",
-        "yubud",
-        "tubud",
-        "nubud",
-        "tubudem",
-        "tubudemt",
-        "ubuden",
-        "ubudent"
-      ],
-      "usmidanabaw": [
-        "wer ubudeɣ",
-        "wer tubuded",
-        "wer yubud",
-        "wer tubud",
-        "wer nubud",
-        "wer tubudem",
-        "wer tubudemt",
-        "wer ubuden",
-        "wer ubudent"
-      ],
-      "arusmid": [
-        "ttubudeɣ",
-        "tettubuded",
-        "ittubud",
-        "tettubud",
-        "nettubud",
-        "tettubudem",
-        "tettubudemt",
-        "ttubuden",
-        "ttubudent"
-      ],
-      "arusmidanabaw": [
-        "wer ttubudeɣ",
-        "wer tettubuded",
-        "wer ittubud",
-        "wer tettubud",
-        "wer nettubud",
-        "wer tettubudem",
-        "wer tettubudemt",
-        "wer ttubuden",
-        "wer ttubudent"
-      ],
-      "urmir": [
-        "ad ubudeɣ",
-        "ad tubuded",
-        "ad yubud",
-        "ad tubud",
-        "a nubud",
-        "ad tubudem",
-        "ad tubudemt",
-        "ad ubuden",
-        "ad ubudent"
-      ],
-      "amaghun": [
-        "yubuden / wer yubuden",
-        "ittubuden / wer ittubuden"
+        "yeccan / wer yeccin",
+        "itteccan / wer itteccin"
       ]
     }
   }

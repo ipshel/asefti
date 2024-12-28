@@ -55,9 +55,11 @@ def kkvk(verb):
     ]    
     
     amaghun = [
-        f"i{k1}e{k2}{k3}en / wer i{k1}e{k2}{k3}en", f"i{k1}e{k2}{k2}{k3}en / wer i{k1}e{k2}{k2}{k3}en"
+        f"i{k1}e{k2}{k3}en / wer i{k1}e{k2}{k3}en",
+        f"i{k1}e{k2}{k2}{k3}en / wer i{k1}e{k2}{k2}{k3}en"
     ] if k1 != k2 else [
-        f"ye{k1}{k2}{k3}en / wer ye{k1}{k2}{k3}en", f"itte{k1}{k2}{k3}en / wer itte{k1}{k2}{k3}en"
+        f"ye{k1}{k2}{k3}en / wer ye{k1}{k2}{k3}en",
+        f"itte{k1}{k2}{k3}en / wer itte{k1}{k2}{k3}en"
     ]
 
     # smun
@@ -126,7 +128,8 @@ def kvkk(verb):
     ]    
     
     amaghun = [
-        f"i{verb}en / wer i{verb}en", f"itt{verb}an / wer itt{verb}an"
+        f"i{verb}en / wer i{verb}en",
+        f"itt{verb}an / wer itt{verb}an"
     ]
 
     # smun
@@ -199,7 +202,8 @@ def kvkv(verb):
     ]    
 
     amaghun = [
-        f"i{verb}n / wer i{k1}{sp}{k2}{sp2}n", f"itt{verb}n / wer itt{k1}{sp}{k2}{sp2}n"
+        f"i{verb}n / wer i{k1}{sp}{k2}{sp2}n",
+        f"itt{verb}n / wer itt{k1}{sp}{k2}{sp2}n"
     ]
 
     # smun
@@ -275,7 +279,78 @@ def vkvk(verb):
     ssp = 'u' if v1 == 'a' else v1
     psp = 'i' if v1 == 'a' else v2
     amaghun = [
-        f"y{ssp}{k1}{sp}{k2}en / wer y{ssp}{k1}{psp}{k2}en", f"itt{v1}{k1}{sp}{k2}en / wer itt{psp}{k1}{sp}{k2}en"
+        f"y{ssp}{k1}{sp}{k2}en / wer y{ssp}{k1}{psp}{k2}en",
+        f"itt{v1}{k1}{sp}{k2}en / wer itt{psp}{k1}{sp}{k2}en"
+    ]
+
+    # smun
+    asefti = {
+            "root": "",
+            "translations": {},
+            "conj": {
+                "anad": anad,
+                "anadussid":anad_ussid,
+                "usmid":usmid,
+                "usmidanabaw":usmid_anabaw,
+                "arusmid":arusmid,
+                "arusmidanabaw": arusmid_anabaw,
+                "urmir":urmir,
+                "amaghun":amaghun
+            }
+        }
+
+    return asefti
+
+
+def vkkv(verb):
+   
+   
+    if len(verb) != 4:
+        raise ValueError(f"'{verb}'. ca wer yelli d wenni")
+
+    # asufeɣ n isekkilen
+    v1,k1,k2,v2 = verb
+    
+    k3 = ''
+
+    # asefti
+    
+    anad = [
+        verb, f"{verb}m", f"{verb}t", f"{verb}mt"
+    ]
+
+    anad_ussid = [
+        f"tt{verb}", f"tt{verb}m", f"tt{verb}t", f"{verb}mt"
+    ]
+    
+    sp = 'i' if v2 == 'a' else v2
+    usmid = [
+        f"{v1}{k1}{k2}{sp}ɣ", f"t{v1}{k1}{k2}{sp}d", f"y{v1}{k1}{k2}{v2}", f"t{v1}{k1}{k2}{v2}",
+        f"n{v1}{k1}{k2}{v2}", f"t{v1}{k1}{k2}{v2}m", f"t{v1}{k1}{k2}{v2}mt", f"{v1}{k1}{k2}{v2}n", f"{v1}{k1}{k2}{v2}nt"
+    ]
+    
+    usmid_anabaw = [
+        f"wer {form}" for form in usmid
+    ]
+    
+
+    arusmid = [
+        f"tt{v1}{k1}{k2}{sp}ɣ", f"tt{v1}{k1}{k2}{sp}d", f"itt{v1}{k1}{k2}{v2}", f"tett{v1}{k1}{k2}{v2}",
+        f"nett{v1}{k1}{k2}{v2}", f"tett{v1}{k1}{k2}{v2}m", f"tett{v1}{k1}{k2}{v2}mt", f"tt{v1}{k1}{k2}{v2}n", f"tt{v1}{k1}{k2}{v2}nt"
+    ]
+    
+
+    arusmid_anabaw = [
+        f"wer {form}" for form in arusmid
+    ]
+    
+    urmir = [
+       f"ad {form}" for form in usmid
+    ]  
+    
+    amaghun = [
+        f"y{verb}n / wer y{v1}{k1}{k2}{sp}n",
+        f"itt{verb}n / wer itt{v1}{k1}{k2}{sp}n"
     ]
 
     # smun
