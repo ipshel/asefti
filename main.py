@@ -5,7 +5,7 @@ import json
 
 from x3 import vkk, kkv, kvk, vkv
 from x4 import kkvk, kvkk, kvkv, vkvk, vkkv
-from x5 import kvkvk
+from x5 import kvkvk, kkkvk
 from x6 import kvkkvk
 
 def save_to_json(data, filename):
@@ -28,7 +28,7 @@ def match_pattern(word, pattern):
 
 
 
-verbs = ['uɛla', 'urja','egru','erra','ecca']
+verbs = ['ssɣed','llhem','ttcel']
 
 def sefta(verb):
     try:
@@ -68,6 +68,8 @@ def sefta(verb):
         
             if match_pattern(verb, 'kvkvk'):
                 conj = kvkvk(verb)
+            elif match_pattern(verb, 'kkkvk'):
+                conj = kkkvk(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
