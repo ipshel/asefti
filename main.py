@@ -14,29 +14,36 @@ def save_to_json(data, filename):
         json.dump(data, json_file, ensure_ascii=False, indent=2)
 
 
-def match_pattern(word, pattern):
-
-    if len(word) != len(pattern):
+def match_pattern(verb, pattern):
+    
+    if len(verb) != len(pattern):
         return False
-    if 'o' in word:
-        return Falseaɣer
+    if 'o' in verb:
+        return False
 
-    w_pattern = tuple(c in 'aeiu' for c in word)
+    w_pattern = tuple(c in 'aeiu' for c in verb)
     p_pattern = tuple(c == 'v' for c in pattern)
 
     return w_pattern == p_pattern
 
 
 
-verbs = ['ssɣed','llhem','ttcel']
+verbs = ['ggʷed','ssɣed','llhem','ttcel']
 
 def sefta(verb):
+    
+    
     try:
-        if len(verb) == 2:
+        lenverb = len(verb)
+        
+        if 'ʷ' in verb:
+            raise ValueError(f"{verb}: imyagen idi yella 'ʷ' ffɣen zi leḥsab lextu")
+        
+        elif lenverb == 2:
             
             raise ValueError(f"{verb} : wa ad iraḥ s ufus.")
         
-        elif len(verb) == 3:
+        elif lenverb == 3:
         
             if match_pattern(verb, 'vkk'):
                 conj = vkk(verb)
@@ -49,7 +56,7 @@ def sefta(verb):
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
-        elif len(verb) == 4:
+        elif lenverb == 4:
         
             if match_pattern(verb, 'kkvk'):
                 conj = kkvk(verb)
@@ -64,7 +71,7 @@ def sefta(verb):
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
-        elif len(verb) == 5:
+        elif lenverb == 5:
         
             if match_pattern(verb, 'kvkvk'):
                 conj = kvkvk(verb)
@@ -73,22 +80,22 @@ def sefta(verb):
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
-        elif len(verb) == 6:
+        elif lenverb == 6:
             
             if match_pattern(verb,'kvkkvk'):
                 conj = kvkkvk(verb)
             else:
                 raise ValueError(f"ca wer yelli d wenni i '{verb}'")
         
-        elif len(verb) == 7:
+        elif lenverb == 7:
             
             raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
         
-        elif len(verb) == 8:
+        elif lenverb == 8:
         
             raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
         
-        elif len(verb) == 9:
+        elif lenverb == 9:
         
             raise ValueError(f"{verb} : ɛad wer dag-sen nexdim")
         

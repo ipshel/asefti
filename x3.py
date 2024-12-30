@@ -1,8 +1,7 @@
 def vkk(verb):
-    # ma ɣarneɣ nican vkk
-    if len(verb) != 3 or not verb[0] in 'aei' or verb[1] in 'aeiu' or verb[2] in 'aeiu':
-        raise ValueError(f"'{verb}' wer yelli ca d vkk, yenni ibeddan s u wer llin ca da")
 
+    if len(verb) != 3:
+        raise ValueError(f"ca wer yelli d wenni, '{verb}'")
     # asufeɣ n isekkilen
     k1 = verb[1]
     k2 = verb[2]
