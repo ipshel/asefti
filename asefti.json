@@ -1,232 +1,232 @@
 {
-  "ssɣed": {
+  "ndemm": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "ssɣed",
-        "sseɣdem",
-        "sseɣdet",
-        "sseɣdemt"
+        "ndemm",
+        "ndemmem",
+        "ndemmet",
+        "ndemmemt"
       ],
       "anadussid": [
-        "ssɣad",
-        "ssɣadam",
-        "ssɣadat",
-        "ssɣadamt"
+        "ttendemma",
+        "ttendemmam",
+        "ttendemmat",
+        "ttendemmamt"
       ],
       "usmid": [
-        "sseɣdeɣ",
-        "tesseɣded",
-        "yessɣed",
-        "tessɣed",
-        "nessɣed",
-        "tesseɣdem",
-        "tesseɣdemt",
-        "sseɣden",
-        "sseɣdent"
+        "ndemmeɣ",
+        "tendemmed",
+        "yendemm",
+        "tendemm",
+        "nendemm",
+        "tendemmem",
+        "tendemmemt",
+        "ndemmen",
+        "ndemment"
       ],
       "usmidanabaw": [
-        "wer sseɣdeɣ",
-        "wer tesseɣded",
-        "wer yessɣed",
-        "wer tessɣed",
-        "wer nessɣed",
-        "wer tesseɣdem",
-        "wer tesseɣdemt",
-        "wer sseɣden",
-        "wer sseɣdent"
+        "wer ndemmeɣ",
+        "wer tendemmed",
+        "wer yendemm",
+        "wer tendemm",
+        "wer nendemm",
+        "wer tendemmem",
+        "wer tendemmemt",
+        "wer ndemmen",
+        "wer ndemment"
       ],
       "arusmid": [
-        "ssɣadiɣ",
-        "tessɣaded",
-        "yessɣada",
-        "tessɣada",
-        "nessɣada",
-        "tessɣadam",
-        "tessɣadamt",
-        "ssɣadan",
-        "ssɣadant"
+        "ttendemmiɣ",
+        "ttendemmid",
+        "ittendemma",
+        "tettendemma",
+        "nettendemma",
+        "tettendemmam",
+        "tettendemmamt",
+        "ttendemman",
+        "ttendemmant"
       ],
       "arusmidanabaw": [
-        "wer ssɣidiɣ",
-        "wer tessɣidid",
-        "wer yessɣidi",
-        "wer tessɣidi",
-        "wer nessɣidi",
-        "wer tessɣidim",
-        "wer tessɣidimt",
-        "wer ssɣidin",
-        "wer ssɣidint"
+        "wer ttendemmiɣ",
+        "wer ttendemmid",
+        "wer ittendemma",
+        "wer tettendemma",
+        "wer nettendemma",
+        "wer tettendemmam",
+        "wer tettendemmamt",
+        "wer ttendemman",
+        "wer ttendemmant"
       ],
       "urmir": [
-        "ad sseɣdeɣ",
-        "ad tesseɣded",
-        "ad yesseɣd",
-        "ad tesseɣd",
-        "a nesseɣd",
-        "ad tesseɣdem",
-        "ad tesseɣdemt",
-        "ad sseɣden",
-        "ad sseɣdent"
+        "ad ndemmeɣ",
+        "ad tendemmed",
+        "ad yendemm",
+        "ad tendemm",
+        "a nendemm",
+        "ad tendemmem",
+        "ad tendemmemt",
+        "ad ndemmen",
+        "ad ndemment"
       ],
       "amaghun": [
-        "yesseɣden / wer yesseɣden",
-        "yessɣadan / wer yessɣidin"
+        "yendemmen / wer yendemmen",
+        "ittendemman / wer ittendemmin"
       ]
     }
   },
-  "llhem": {
+  "nhezz": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "llhem",
-        "llehmem",
-        "llehmet",
-        "llehmemt"
+        "nhezz",
+        "nhezzem",
+        "nhezzet",
+        "nhezzemt"
       ],
       "anadussid": [
-        "llham",
-        "llhamam",
-        "llhamat",
-        "llhamamt"
+        "ttenhezza",
+        "ttenhezzam",
+        "ttenhezzat",
+        "ttenhezzamt"
       ],
       "usmid": [
-        "llehmeɣ",
-        "tellehmed",
-        "yellhem",
-        "tellhem",
-        "nellhem",
-        "tellehmem",
-        "tellehmemt",
-        "llehmen",
-        "llehment"
+        "nhezzeɣ",
+        "tenhezzed",
+        "yenhezz",
+        "tenhezz",
+        "nenhezz",
+        "tenhezzem",
+        "tenhezzemt",
+        "nhezzen",
+        "nhezzent"
       ],
       "usmidanabaw": [
-        "wer llehmeɣ",
-        "wer tellehmed",
-        "wer yellhem",
-        "wer tellhem",
-        "wer nellhem",
-        "wer tellehmem",
-        "wer tellehmemt",
-        "wer llehmen",
-        "wer llehment"
+        "wer nhezzeɣ",
+        "wer tenhezzed",
+        "wer yenhezz",
+        "wer tenhezz",
+        "wer nenhezz",
+        "wer tenhezzem",
+        "wer tenhezzemt",
+        "wer nhezzen",
+        "wer nhezzent"
       ],
       "arusmid": [
-        "llhamiɣ",
-        "tellhamed",
-        "yellhama",
-        "tellhama",
-        "nellhama",
-        "tellhamam",
-        "tellhamamt",
-        "llhaman",
-        "llhamant"
+        "ttenhezziɣ",
+        "ttenhezzid",
+        "ittenhezza",
+        "tettenhezza",
+        "nettenhezza",
+        "tettenhezzam",
+        "tettenhezzamt",
+        "ttenhezzan",
+        "ttenhezzant"
       ],
       "arusmidanabaw": [
-        "wer llhimiɣ",
-        "wer tellhimid",
-        "wer yellhimi",
-        "wer tellhimi",
-        "wer nellhimi",
-        "wer tellhimim",
-        "wer tellhimimt",
-        "wer llhimin",
-        "wer llhimint"
+        "wer ttenhezziɣ",
+        "wer ttenhezzid",
+        "wer ittenhezza",
+        "wer tettenhezza",
+        "wer nettenhezza",
+        "wer tettenhezzam",
+        "wer tettenhezzamt",
+        "wer ttenhezzan",
+        "wer ttenhezzant"
       ],
       "urmir": [
-        "ad llehmeɣ",
-        "ad tellehmed",
-        "ad yellehm",
-        "ad tellehm",
-        "a nellehm",
-        "ad tellehmem",
-        "ad tellehmemt",
-        "ad llehmen",
-        "ad llehment"
+        "ad nhezzeɣ",
+        "ad tenhezzed",
+        "ad yenhezz",
+        "ad tenhezz",
+        "a nenhezz",
+        "ad tenhezzem",
+        "ad tenhezzemt",
+        "ad nhezzen",
+        "ad nhezzent"
       ],
       "amaghun": [
-        "yellehmen / wer yellehmen",
-        "yellhaman / wer yellhimin"
+        "yenhezzen / wer yenhezzen",
+        "ittenhezzan / wer ittenhezzin"
       ]
     }
   },
-  "ttcel": {
+  "nxerm": {
     "root": "",
     "translations": {},
     "conj": {
       "anad": [
-        "ttcel",
-        "tteclem",
-        "tteclet",
-        "tteclemt"
+        "nxerm",
+        "nxermem",
+        "nxermet",
+        "nxermemt"
       ],
       "anadussid": [
-        "ttcal",
-        "ttcalam",
-        "ttcalat",
-        "ttcalamt"
+        "ttenxerma",
+        "ttenxermam",
+        "ttenxermat",
+        "ttenxermamt"
       ],
       "usmid": [
-        "ttecleɣ",
-        "tettecled",
-        "yettcel",
-        "tettcel",
-        "nettcel",
-        "tetteclem",
-        "tetteclemt",
-        "tteclen",
-        "tteclent"
+        "nxermeɣ",
+        "tenxermed",
+        "yenxerm",
+        "tenxerm",
+        "nenxerm",
+        "tenxermem",
+        "tenxermemt",
+        "nxermen",
+        "nxerment"
       ],
       "usmidanabaw": [
-        "wer ttecleɣ",
-        "wer tettecled",
-        "wer yettcel",
-        "wer tettcel",
-        "wer nettcel",
-        "wer tetteclem",
-        "wer tetteclemt",
-        "wer tteclen",
-        "wer tteclent"
+        "wer nxermeɣ",
+        "wer tenxermed",
+        "wer yenxerm",
+        "wer tenxerm",
+        "wer nenxerm",
+        "wer tenxermem",
+        "wer tenxermemt",
+        "wer nxermen",
+        "wer nxerment"
       ],
       "arusmid": [
-        "ttcaliɣ",
-        "tettcaled",
-        "yettcala",
-        "tettcala",
-        "nettcala",
-        "tettcalam",
-        "tettcalamt",
-        "ttcalan",
-        "ttcalant"
+        "ttenxermiɣ",
+        "ttenxermid",
+        "ittenxerma",
+        "tettenxerma",
+        "nettenxerma",
+        "tettenxermam",
+        "tettenxermamt",
+        "ttenxerman",
+        "ttenxermant"
       ],
       "arusmidanabaw": [
-        "wer ttciliɣ",
-        "wer tettcilid",
-        "wer yettcili",
-        "wer tettcili",
-        "wer nettcili",
-        "wer tettcilim",
-        "wer tettcilimt",
-        "wer ttcilin",
-        "wer ttcilint"
+        "wer ttenxermiɣ",
+        "wer ttenxermid",
+        "wer ittenxerma",
+        "wer tettenxerma",
+        "wer nettenxerma",
+        "wer tettenxermam",
+        "wer tettenxermamt",
+        "wer ttenxerman",
+        "wer ttenxermant"
       ],
       "urmir": [
-        "ad ttecleɣ",
-        "ad tettecled",
-        "ad yettecl",
-        "ad tettecl",
-        "a nettecl",
-        "ad tetteclem",
-        "ad tetteclemt",
-        "ad tteclen",
-        "ad tteclent"
+        "ad nxermeɣ",
+        "ad tenxermed",
+        "ad yenxerm",
+        "ad tenxerm",
+        "a nenxerm",
+        "ad tenxermem",
+        "ad tenxermemt",
+        "ad nxermen",
+        "ad nxerment"
       ],
       "amaghun": [
-        "yetteclen / wer yetteclen",
-        "yettcalan / wer yettcilin"
+        "yenxermen / wer yenxermen",
+        "ittenxerman / wer ittenxermin"
       ]
     }
   }
